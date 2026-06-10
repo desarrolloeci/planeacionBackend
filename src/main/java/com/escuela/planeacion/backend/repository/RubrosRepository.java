@@ -13,4 +13,8 @@ import com.escuela.planeacion.backend.entity.Rubros;
 public interface RubrosRepository extends JpaRepository<Rubros, String> {
 	@Query("SELECT r FROM Rubros r WHERE r.cod_cl1 = :codCl1 AND r.ano_acu = YEAR(CURRENT_DATE)")
     List<Rubros> buscarPorCodCl1(@Param("codCl1") String codCl1);
+	
+	
+	
+	
 }

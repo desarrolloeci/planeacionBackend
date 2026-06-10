@@ -3,7 +3,7 @@ package com.escuela.planeacion.backend.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "home_parameter", schema = "dbo" , catalog= "Planeacion")
+@Table(name = "home_parameter", schema = "odi" , catalog= "Planeacion")
 public class HomeParameter {
 
     @Id

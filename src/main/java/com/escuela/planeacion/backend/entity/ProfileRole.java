@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "profile_role", schema = "dbo" , catalog= "Planeacion")
+@Table(name = "profile_role", schema = "odi" , catalog= "Planeacion")
 public class ProfileRole {
 
     @Id
